@@ -1,0 +1,13 @@
+name: 'Hola Mundo JS Actions'
+description: 'Algun nombre y tiempo actual'
+inputs:
+  quien-saluda: # id del input
+    description: "Quien saluda"
+    required: true
+    default: 'Mundo'
+outputs:
+  time: # id del output
+  description: "La hora en que te saludo"
+runs:
+  using: 'node12'
+  main: 'index.js'
