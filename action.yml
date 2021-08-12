@@ -1,13 +1,13 @@
-name: 'Hola Mundo JS Actions'
-description: 'Algun nombre y tiempo actual'
+name: 'Hello World'
+description: 'Greet someone and record the time'
 inputs:
-  quien-saluda: # id del input
-    description: "Quien saluda"
+  who-to-greet:  # id of input
+    description: 'Who to greet'
     required: true
-    default: 'Mundo'
+    default: 'World'
 outputs:
-  time: # id del output
-  description: "La hora en que te saludo"
+  time: # id of output
+    description: 'The time we greeted you'
 runs:
   using: 'node12'
   main: 'index.js'
